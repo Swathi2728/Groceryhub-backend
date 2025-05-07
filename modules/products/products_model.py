@@ -48,7 +48,7 @@ class ProductDAO:
         with Session(engine) as session:
          products_in_category = session.exec(
             select(ProductBase).where(
-                ProductBase.category_name==category_name  # Case-insensitive search
+                ProductBase.category_name==category_name
             )
         ).all()
         return products_in_category
