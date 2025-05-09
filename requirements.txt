@@ -7,8 +7,9 @@ passlib[bcrypt]
 pydantic
 python-dotenv
 sqlmodel
-pydantic[email]
 pydantic-settings
+PyJWT
+
 
 
 
